@@ -1,0 +1,14 @@
+
+
+@function theme-color($key: "blue1") {
+  @return map-get($mashinchi-colors, $key);
+}
+
+// Request a theme color level
+@function theme-color-level($color-name: "blue1", $level: 0) {
+  $color: theme-color($color-name);
+  $color-base: if($level > 0, $sefid, $mashki);
+  $level: abs($level);
+  @return mix($color-base, $color, $level * $theme-color-interval);
+}
+

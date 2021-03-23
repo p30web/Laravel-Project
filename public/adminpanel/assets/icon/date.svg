@@ -1,0 +1,14 @@
+<svg id="Group_162" data-name="Group 162" xmlns="http://www.w3.org/2000/svg" width="53.32" height="53.32" viewBox="0 0 53.32 53.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #336fc5;
+      }
+    </style>
+  </defs>
+  <path id="Path_492" data-name="Path 492" class="cls-1" d="M1634.4,143.9v53.32h53.32V143.9Zm51.178,2.356V156.32h-48.823V146.256Zm-48.823,48.823V158.461h48.823v36.617Z" transform="translate(-1634.4 -143.9)"/>
+  <rect id="Rectangle_107" data-name="Rectangle 107" class="cls-1" width="3.426" height="3.426" transform="translate(16.702 5.568)"/>
+  <rect id="Rectangle_108" data-name="Rectangle 108" class="cls-1" width="3.426" height="3.426" transform="translate(33.405 5.568)"/>
+  <path id="Path_493" data-name="Path 493" class="cls-1" d="M1645.811,154.514c-.428,2.784-1.713,2.784-4.283,2.784h-.428v1.927h4.283v12.42h2.355V154.3h-1.927Z" transform="translate(-1626.753 -132.03)"/>
+  <path id="Path_494" data-name="Path 494" class="cls-1" d="M1652.581,159.653a6.971,6.971,0,0,0-3,.857l.857-4.069h7.281V154.3h-8.994l-1.713,9.422h1.927l.214-.214a3.889,3.889,0,0,1,3.426-1.713,3.838,3.838,0,0,1,3.854,3.854c0,2.141-1.285,4.069-3.64,4.069a3.437,3.437,0,0,1-3.64-3.426v-.428H1646.8v.428a5.456,5.456,0,0,0,5.781,5.568,6.035,6.035,0,0,0,6.21-6A6.212,6.212,0,0,0,1652.581,159.653Z" transform="translate(-1620.247 -132.03)"/>
+</svg>

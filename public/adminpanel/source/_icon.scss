@@ -1,0 +1,134 @@
+$top-search : 'search.svg';
+
+$wrench : 'wrench.svg';
+
+$notices-icon : 'notices.svg';
+
+$edite-icon : 'edit.svg';
+
+
+@mixin custom-icon ($icon , $width:33,$height:33){
+  background-image: url("../../assets/icon/" + $icon);
+  width: $width + px;
+  height: $height + px;
+}
+
+.wrench-icon {
+  @include custom-icon($wrench,33,33);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.notices-icon {
+  @include custom-icon($notices-icon,33,33);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.edite-icon {
+  @include custom-icon($edite-icon,25,25);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.not-verified-icon {
+  @include custom-icon('not-verified.svg',18,22);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+.experts-icon {
+  @include custom-icon('experts.svg',18,22);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.machinchi-logo {
+  @include custom-icon('experts.svg',31,15);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+
+.close-right-nav {
+  @include custom-icon('close-right-nav.svg',42,15);
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 6px;
+}
+
+.top-search{
+  @include custom-icon('top-search.svg',42,33);
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 10px;
+}
+
+.arrow-top-icon {
+  @include custom-icon('arrow-top-icon.svg',13,13);
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 8px;
+}
+
+.add-ads-icon-mi {
+  @include custom-icon('delete-icon.svg',25,25);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.add-ads-icon {
+  @include custom-icon('add-ads-icon.svg',25,25);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tik-icon {
+  position: relative;
+  text-align: center;
+  margin-right: 3rem;
+  &:before{
+    @include custom-icon('tik-icon.svg',75,75);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    content: "";
+    top: -23px;
+    right: -4rem;
+  }
+}
+
+
+
+.btn-add-ads{
+  border: 2px solid transparent;
+  .add-ads-icon {
+    @include custom-icon('add-ads-icon.svg',25,25);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &:hover {
+    background: #eaf0f9;
+    border: 2px solid #336fc5;
+    & .add-ads-icon {
+      @include custom-icon('add-ads-icon2.svg',25,25);
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+

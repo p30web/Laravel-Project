@@ -1,0 +1,50 @@
+$bg-withe : #fff;
+$mashinchi : #336fc5;
+$eaf : #eaf0f9;
+$b8f : #b8ffcb;
+$success : #00851f;
+$failed: #e50404;
+$inprogress:#ffc823;
+.bg-white {
+  background: $bg-withe;
+}
+
+.bg-exprt {
+  background: #ffb22b !important;
+}
+
+.color-fff {
+  color: #fff;
+}
+
+.color-000 {
+  color: #000 !important;
+}
+
+.bg-b7 {
+  background: #b7b7b7 !important;
+}
+
+.bg-mashinchi{
+  background: $mashinchi;
+}
+
+.bg-eaf {
+background: $eaf !important;
+}
+
+.color-eaf {
+  color: $eaf !important;
+}
+
+.color-mashinchi {
+  color: $mashinchi !important;
+}
+
+.color-all-mashinchi > * {
+  color: $mashinchi !important;
+}
+
+.bg-b8f {
+  background: #b8ffcb !important;
+}

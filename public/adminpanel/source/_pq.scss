@@ -1,0 +1,154 @@
+.plak-no {
+  .d-flex input:first-child {
+    text-align: left;
+  }
+}
+
+.mdetails {
+  min-height: 6em;
+}
+
+.last-section .float-left a {
+  color: #000 !important;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.last-section .btn-warning {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.add-pic {
+  /*     border: 2px dashed gray; */
+  left: 45%;
+  top: 40%;
+  opacity: 0.5;
+  padding: .5em;
+  display: flex;
+  flex-direction: column;
+  i {
+    color: #1976d2;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+.dz-message{
+  display: none;
+}
+
+.no-shadow{
+  box-shadow: none !important;
+}
+.addpackage{
+  .add-package-header{
+    background:$bg-withe !important;
+  }
+  .add-package-body{
+    margin: 0 1.3em;
+    border-radius:0 0 5px 5px;
+    border:1px solid lightgray !important;
+  }
+}
+
+
+.machinchi-tabs {
+  .tab-container{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+
+  }
+  .nav-pills {
+    .active {
+      background-color: $mashinchi !important;
+      border-radius: 5px 5px 0 0 !important;
+      color: $bg-withe !important;
+    }
+    .nav-item{
+      background: $bg-withe !important;
+      border: 0.5px solid #5f5c5c3d;
+      border-radius: 5px 5px 0 0;
+      a{
+        color: #1976d2 ;
+      }
+    }
+  }
+  .tab-content{
+    background: $bg-withe;
+  }
+
+}
+
+  .btn-info:hover  {
+    color: $bg-withe;
+    background-color: $mashinchi;
+    border-color: $mashinchi;
+  }
+  .btn-info:not(:disabled):not(.disabled):active{
+    color: #fff;
+    background-color: $mashinchi;
+    border-color: $mashinchi;
+  }
+
+  .no-over-flow{
+    overflow-x: unset !important;
+  }
+  .svg-icons{
+    height: 30px;
+    width: 30px;
+  }
+
+.sidebar-nav > ul > li > a.active{
+
+  background: #fff !important;
+}
+
+.add-factor-btn a{
+  color: $bg-withe !important;
+}
+.add-icon{
+  height: 28px;
+  width: 28px;
+}
+
+.sidebar-nav > ul > li.active > a{
+  border-color: #ffc823 !important;
+
+}
+
+.expert-form{
+  .wizard-content>.actions{
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a
+.mini-sidebar .sidebar-nav #sidebarnav {
+  li:hover > a {
+    background: $bg-withe !important;
+  }
+}
+
+
+.success-color{
+  color:$success ;
+}
+.failed-color{
+  color:$failed ;
+}
+
+inprogress-color{
+  color:$inprogress  !important;
+}
+
+.actions ul li.disabled{
+  display:none !important;
+}

@@ -1,0 +1,172 @@
+.sidebar-nav {
+  .in {
+    .active {
+      .cls-1 {
+        fill: #1976d2;
+      }
+      .hide-menu {
+        //vertical-align: top;
+      }
+    }
+
+    & li {
+      & a {
+        & svg {
+          margin-left: 2px;
+          vertical-align: middle;
+        }
+      }
+      .has-arrow {
+        svg {
+          vertical-align: inherit;
+        }
+
+
+      }
+    }
+  }
+}
+
+.active {
+  li {
+    a {
+      img {
+        color: #1976d2;
+      }
+    }
+  }
+}
+
+.actions {
+  text-align: center !important;
+
+  ul {
+    display: inline-block;
+    float: none !important;
+  }
+}
+
+.time-date-expert {
+  .days-container {
+    border: 1px solid #ced4da !important;
+    border-radius: 2.5px;
+  }
+}
+
+.card-body {
+  .btn-group {
+    .btn-next-expert {
+      margin-right: 10px;
+    }
+  }
+}
+
+.card {
+  .card-body {
+    .table-responsive {
+      .table {
+        tbody {
+          tr {
+            .border-left {
+              color: #1f1e1e;
+            }
+          }
+        }
+      }
+    }
+
+    .btn-group {
+      .btn-next-expert {
+        margin-right: 10px;
+      }
+    }
+
+    .tab-wizard {
+
+      .steps {
+        ul {
+          li {
+            span {
+              border-color: #336fc5 !important;
+              background-color: #336fc5 !important;
+              color: #FFFFFF !important;
+            }
+
+            &:before {
+              background-color: #336fc5;
+            }
+
+            &:after {
+              background-color: #336fc5;
+            }
+
+            a {
+              color: #336fc5 !important;
+            }
+          }
+        }
+
+        .disabled {
+          span {
+            border-color: #336fc5 !important;
+            color: #336fc5 !important;
+            background-color: #FFFFFF !important;
+          }
+
+          a {
+            color: #707070 !important;
+          }
+        }
+      }
+
+      .content {
+        section {
+          .form-group {
+            .iran-input {
+              direction: ltr;
+            }
+          }
+
+          .card2 {
+            .table-responsive {
+              table {
+                tbody {
+                  tr {
+                    .text-left {
+                      color: #000000 !important;
+                    }
+
+                    td {
+                      label {
+                        &:after {
+                          border: 1px solid #336fc5;
+                          border-radius: 2.5px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          h3 {
+            color: #1f1e1e !important;
+          }
+        }
+
+        .price-expert {
+          .container-fluid {
+            .invoice-border {
+              .invoice-border-left {
+                strong {
+                  color: #1f1e1e;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

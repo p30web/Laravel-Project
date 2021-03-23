@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <style>
+            .cls-1{fill:#707070}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="Group_7967" data-name="Group 7967" transform="translate(-57 -285)">
+        <g id="Group_7948" data-name="Group 7948" transform="translate(-1822 -215)">
+            <g id="Group_7611" data-name="Group 7611" transform="translate(11 43)">
+                <g id="Group_7610" data-name="Group 7610" transform="translate(-18 223)">
+                    <circle id="Ellipse_169" cx="11" cy="11" r="11" class="cls-1" data-name="Ellipse 169" transform="translate(1886 234)"/>
+                </g>
+                <g id="Group_7595" data-name="Group 7595" transform="translate(1872 461)">
+                    <path id="Path_1838" d="M648.043 1281h-1.363v2.045l-1.363.454-1.363-1.363-1.818 1.818 1.363 1.363-.454 1.363H641v2.726h2.045l.454 1.363-1.363 1.363 1.818 1.817 1.363-1.363 1.363.454v2.045h2.726v-2.045l1.363-.454 1.363 1.363 1.818-1.817-1.363-1.363.454-1.363h2.045v-2.726h-2.045l-.454-1.363 1.363-1.363-1.818-1.818-1.363 1.363-1.363-.454V1281z" class="cls-2" data-name="Path 1838" transform="translate(-641 -1281)"/>
+                    <ellipse id="Ellipse_168" cx="1.363" cy="1.363" class="cls-2" data-name="Ellipse 168" rx="1.363" ry="1.363" transform="translate(5.68 5.68)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

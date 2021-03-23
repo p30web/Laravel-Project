@@ -1,0 +1,49 @@
+@import "functions";
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+
+.alert-top {
+  position: relative;
+  padding: 1.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  width: 100%;
+  & .close {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 28px;
+    width: 28px;
+    padding: 5px 2px;
+    top: 2.5rem;
+    left: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+
+@each $color, $value in $alert-colors {
+  .alert-#{$color} {
+    @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
+  }
+}
+
+.custom-alert {
+  .alert-top {
+    border: 0 !important;
+    box-shadow: 1px 1px 7px rgba(0,0,0,.1);
+    -moz-box-shadow: 1px 1px 7px rgba(0,0,0,.1);
+    -webkit-box-shadow: 1px 1px 7px rgba(0,0,0,.1);
+    -ms-box-shadow: 1px 1px 7px rgba(0,0,0,.1);
+    -o-box-shadow: 1px 1px 7px rgba(0,0,0,.1);
+  }
+}
+
+.custom-alert2 {
+  border: 0 !important;
+}
+
+
+

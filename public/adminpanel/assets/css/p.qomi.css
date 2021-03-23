@@ -1,0 +1,71 @@
+/*--page 10 ------*/
+.machinechidetails input, .machinechidetails select {
+  border-radius: 0 !important;
+}
+
+.plak-no .d-flex input {
+  margin-left: 0.5em;
+}
+
+.plak-no .d-flex input:first-child {
+  text-align: left;
+}
+
+.plak-no .d-flex input:last-child {
+  margin-left: 0;
+}
+
+.mdetails {
+  min-height: 6em;
+}
+
+.last-section .float-left a {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.last-section .btn-warning {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.add-pic {
+  left: 45%;
+  top: 40%;
+  opacity: 0.5;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+.add-pic i {
+  color: #1976d2;
+  text-align: center;
+  font-size: 2em;
+}
+
+.dz-message {
+  display: none;
+}
+
+/*--page 11-12 ------*/
+.add-pachage-header {
+  background: #fff;
+  border: none !important;
+  padding-bottom: 0 !important;
+}
+
+.add-pachage-body {
+  margin: 0 1.3em;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid lightgray !important;
+}
+
+.alert-top {
+  margin-bottom: 0;
+}
+
+.btn-center {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=p.qomi.css.map */

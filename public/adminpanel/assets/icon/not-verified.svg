@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.225" height="26.029" viewBox="0 0 21.225 26.029">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #336fc5;
+      }
+    </style>
+  </defs>
+  <g id="Group_7642" data-name="Group 7642" transform="translate(-11610 499.5)">
+    <path id="Op_component_1" data-name="Op component 1" class="cls-1" d="M242.7,722.718a.59.59,0,0,0-.235-.175l-.023-.043h-9.818A1.738,1.738,0,0,0,231,724.1v22.826a1.735,1.735,0,0,0,1.627,1.6h18.111a1.6,1.6,0,0,0,1.486-1.6V733.966l-.678-.792C249.962,731.067,244.758,725.033,242.7,722.718Zm8.331,10.995h-8a.713.713,0,0,1-.418-.652v-9.042l8.277,9.592A.263.263,0,0,0,251.033,733.713Zm-.295,14.016H232.627a.936.936,0,0,1-.826-.8V724.1a.938.938,0,0,1,.826-.8h9.185v9.759a1.412,1.412,0,0,0,1.219,1.453h8.392v12.414A.81.81,0,0,1,250.738,747.729Z" transform="translate(11379 -1222)"/>
+    <path id="Op_component_2" data-name="Op component 2" class="cls-1" d="M241.4,746.3h4.805a.4.4,0,1,0,0-.8H241.4a.4.4,0,0,0,0,.8Z" transform="translate(11373.004 -1235.79)"/>
+    <path id="Op_component_3" data-name="Op component 3" class="cls-1" d="M241.2,758.3h11.946a.4.4,0,1,0,0-.8H241.2a.4.4,0,1,0,0,.8Z" transform="translate(11373.124 -1242.984)"/>
+    <path id="Op_component_4" data-name="Op component 4" class="cls-1" d="M253.815,769.5H241.4a.4.4,0,0,0,0,.8h12.414a.4.4,0,0,0,0-.8Z" transform="translate(11373.004 -1250.179)"/>
+  </g>
+</svg>

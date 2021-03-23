@@ -1,0 +1,52 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Custom Color system
+
+$sefid:    #fff !default;
+$mashki:    #000 !default;
+$blue1 : #336fc5;
+$sabz1 : #b8ffcb;
+$zard1 : #ffb22b;
+$garmaz1 : #ffb8b8;
+
+$mashinchi-colors : () !default;
+
+// stylelint-disable-next-line scss/dollar-variable-default
+$mashinchi-colors: map-merge(
+                (
+                        "sefid": $sefid,
+                        "mashki": $mashki,
+                        "blue1": $blue1,
+                        "sabz1": $sabz1,
+                        "zard1": $zard1,
+                        'garmez1' : $garmaz1,
+                ),
+                $mashinchi-colors
+);
+
+$alert-colors: map-merge(
+                (
+                        "blue1": $blue1,
+                        "sabz1": $sabz1,
+                        "zard1": $zard1,
+                        'garmez1' : $garmaz1,
+                ),
+                $mashinchi-colors
+);
+
+$body-bg: $sefid !default;
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8% !default;
+
+$enable-gradients:                            false !default;
+
+
+// Alert
+
+$alert-bg-level:                    1 !default;
+$alert-border-level:                -5 !default;
+$alert-color-level:                 -5 !default;

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #336fc5;
+      }
+
+      .cls-2 {
+        fill: #336fc5;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_7927" data-name="Group 7927" transform="translate(-1389 -888)">
+    <g id="Group_7844" data-name="Group 7844" transform="translate(488 72)">
+      <g id="Ellipse_48" data-name="Ellipse 48" class="cls-1" transform="translate(901 816)">
+        <circle class="cls-3" cx="19" cy="19" r="19"/>
+        <circle class="cls-4" cx="19" cy="19" r="18.5"/>
+      </g>
+      <path id="Path_2" data-name="Path 2" class="cls-2" d="M18.144,41.333l-2.951-1.686v-5.9a3.408,3.408,0,0,0,2.951-3.372,3.372,3.372,0,0,0-6.745,0,3.408,3.408,0,0,0,2.951,3.372V39.12L11.4,37.434,3.6,40.6V52.5l7.8-3.162,6.85,3.9,7.8-3.9V37.434Zm-7.8,7.377-5.8,2.424v-9.8l5.8-2.424Zm1.9-18.338A2.424,2.424,0,1,1,14.666,32.8,2.451,2.451,0,0,1,12.242,30.372Zm5.9,21.816-6.85-3.9v-9.7l2.951,1.686V44.6h.949V40.806l2.951,1.686Zm6.745-3.372-5.8,2.951v-9.8l5.8-2.951Z" transform="translate(905.152 793.48)"/>
+    </g>
+  </g>
+</svg>
